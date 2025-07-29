@@ -44,7 +44,7 @@ html{
     margin-bottom: 70px;
     }
 .slider{
-    width: 100%;
+    max-width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -58,7 +58,7 @@ img{
     /*margin-right: 3px;*/
 }
 img:hover{
-    width: 40%;
+    width: 25%;
     cursor: pointer;
 }
 h1, h2{
