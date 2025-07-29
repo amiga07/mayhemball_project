@@ -63,17 +63,9 @@ h1, h2{
     color: rgb(0, 0, 0);
     font-family: 'Pirata One', serif;
     text-align: center;
-   text-shadow:  -1px -1px 5px rgba(255, 3, 3, 0.973);
-   animation: glow 0.9s ease-in-out infinite alternate;
+   text-shadow:  0px 0px 9px rgba(255, 3, 3, 0.973);
 }
-@keyframes glow {
-  from {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60000, 0 0 40px #600000, 0 0 50px #c71d2b, 0 0 60px #510a13, 0 0 70px #e60000;
-  }
-  to {
-    text-shadow: 0 0 20px #fff, 0 0 30px #050203, 0 0 40px #0a0005, 0 0 50px #0a0005, 0 0 60px #040404, 0 0 70px #0f050a, 0 0 80px #080004;
-  }
-}
+
 h1{
     font-size: 8rem;
     margin: auto;
