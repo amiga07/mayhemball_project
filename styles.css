@@ -1,0 +1,178 @@
+html{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Karla', serif;
+    scroll-behavior: smooth;
+}
+*, *:after, *:before{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.background{
+    background-image: url('https://ladygaganow.net/albums/Studio%20Photoshoots/2025/elle%20mayhem/large.WELLOPENER.jpg.95067f8ebe85c2f17a9b663c152657cb.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    filter: blur(3px);
+    filter:brightness(0.2);
+}
+.content{
+    position: absolute;
+    z-index: 999;
+}
+img{
+    width: 70px;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50px;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+.navbar{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.navbar ul{
+    display: flex;
+}
+.navbar li{
+    list-style: none;
+    margin-right: 4rem;
+
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-family: 'Pirata One', serif;
+}
+.Info-page{
+    margin-top: 150px;
+    width: 100%;
+}
+.text{
+    width: 100%;
+}
+h1{
+    font-size: 6rem;
+    text-align: center;
+    margin-bottom: 80px;
+    /*font-family*/
+}
+.Info-page p{
+    margin:  auto;
+    width: 70%;
+    font-size: 1.2rem;
+    text-indent: 15px;
+    font-weight: 500;
+}
+.key-info{
+    padding-bottom: 15px;
+}
+
+.quote{
+    padding-top: 15px;
+}
+.Info-page{
+        margin-bottom: 50px;
+}
+.songs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+}
+h2{
+    font-size: 4rem;
+    margin-bottom: 50px;
+}
+.songs a{
+    text-decoration: none;
+    font-size: 1.7rem;
+}
+.songs ul{
+    font-size: 1.7rem;
+    text-align: center;
+}
+.songs li{
+    list-style: none;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+
+
+h1, h2, p, a {
+    color: white;
+    text-shadow: 1px 0px 10px rgba(0, 0, 0, 0.688);
+}
+#survey{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 80px;
+}
+#survey h2{
+    text-align: center;
+    font-size: 3.5rem;
+}
+#survey a{
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+#survey a > button {
+    width: 40%;
+    height: 80px;
+    font-size: 2rem;
+    border-radius: 15px;
+    border: none;
+    background-color: rgba(240, 248, 255, 0.429);
+    color: white;
+    font-weight: 600;
+    font-family: 'Karla', serif;
+}
+#survey button:hover{
+    cursor: pointer;
+    opacity: 80%;
+}
+footer{
+    background-color: rgba(0, 0, 0, 0.336);
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 50px;
+}
+footer a, footer p{
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+@media (max-width: 600px){
+    .Info-page p{
+        width: 90%;
+    }
+}
+@media (max-width: 992px){
+    .Info-page p{
+        width: 90%;
+    }
+}
